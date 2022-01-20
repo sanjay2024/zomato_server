@@ -75,7 +75,7 @@ Router.get(
   passport.authenticate("google", { failureRedirect: "/" }),
   (req, res) => {
     return res.redirect(
-      `https://dreamy-spence-a6fed7.netlify.app/google/${req.session.passport.user.token}`
+      `https://boring-roentgen-a60a78.netlify.app/google/${req.session.passport.user.token}`
     );
   }
 );
